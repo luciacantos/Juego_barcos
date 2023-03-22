@@ -1,4 +1,6 @@
 # juego_de_barcos
+link repositorio: https://github.com/luciacantos/Juego_barcos
+
 Arreglar el código de este ejemplo
 
 leer por favor
