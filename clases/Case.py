@@ -45,12 +45,13 @@ def jugar(self):
   self.jugadas.add(self)
   
   if self.barco is not None:
-      if len(casillas - self.casillas_jugadas) == 0:
+      if len(self.casillas - self.casillas_jugadas) == 0:
           print("Hundido !!")
       else:
           print("Tocado !")
   else:
       print("Agua !")
+
 
 @classmethod
 def generar_casillas():
